@@ -1,0 +1,6 @@
+--2023-11-29 19:33:17--  https://www.fourpaws.com/-/media/Project/OneWeb/FourPaws/Images/articles/family-matters/dog-playtime/dog-playtime-927x388.jpg?h=388
+Resolving www.fourpaws.com (www.fourpaws.com)... 40.113.231.190
+Connecting to www.fourpaws.com (www.fourpaws.com)|40.113.231.190|:443... connected.
+ERROR: cannot verify www.fourpaws.com's certificate, issued by 'CN=Go Daddy Secure Certificate Authority - G2,OU=http://certs.godaddy.com/repository/,O=GoDaddy.com\\, Inc.,L=Scottsdale,ST=Arizona,C=US':
+  Unable to locally verify the issuer's authority.
+To connect to www.fourpaws.com insecurely, use `--no-check-certificate'.
