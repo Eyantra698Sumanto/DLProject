@@ -1,0 +1,999 @@
+  620  python predict.py
+  621  cog
+  622  which cog
+  623  curl -o /usr/local/bin/cog -L "https://github.com/replicate/cog/releases/latest/download/cog_$(uname -s)_$(uname -m)"
+  624  cd dl/DDCap
+  625  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  626  cd ..
+  627  ls
+  628  cd ..
+  629  ls
+  630  rm -rf DLProject
+  631  git clone https://github.com/Eyantra698Sumanto/DLProject
+  632  mv DDCapcopy DLProject/
+  633  cd DLProject
+  634  git add .
+  635  cd DDCapcopy
+  636  ls
+  637  rm .git
+  638  rm -rf .git
+  639  cd ..
+  640  git add.
+  641  git add .
+  642  git commit -m "Add files"
+  643  git push
+  644  cd DLProject
+  645  cd DDCapcopy
+  646  git add train.py
+  647  nv
+  648  python predict.py
+  649  pip install cog==0.01
+  650  pip install cog==0.0.3
+  651  pip uninstall cog==0.0.3
+  652  pip install cog==0.0.3
+  653  python predict.py
+  654  pip install cog==0.8.6
+  655  python predict.py
+  656  cog predict
+  657  source deactivate
+  658  conda activate
+  659  source deactivate
+  660  cd dl/DDcap
+  661  cd dl/
+  662  ls
+  663  cd DDCap
+  664  conda activate
+  665  source deactivate
+  666  conda activate myenv
+  667  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  668  cd DLProject
+  669  ls
+  670  git add .
+  671  git commit -m "files"
+  672  git push
+  673  cd DDCapcopy
+  674  ls
+  675  git add results_diff train.py
+  676  ls -a
+  677  cd .
+  678  git rm --cached . -rf
+  679  git add results_diff train.py
+  680  git commit -m "files"
+  681  git push
+  682  ls
+  683  git add results_diff2
+  684  git commit -m "files"
+  685  git push
+  686  cd ..
+  687  cd ../dl/DDCap
+  688  cd results_diff
+  689  ls
+  690  cd caption_diff_vitb16
+  691  ls
+  692  cd ../../
+  693  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  694  vim train.py
+  695  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  696  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  697  cd dl/DDCap
+  698  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  699  cd dl/DDCap
+  700  ls
+  701  cd Images
+  702  cd ..
+  703  cd data
+  704  ls
+  705  cd coco
+  706  ls
+  707  cd annotations
+  708  ls
+  709  cd ../..
+  710  cd ..
+  711  cd MSCOCO_Caption
+  712  ls
+  713  cd train2014
+  714  cd tran2014
+  715  ls
+  716  cd ..
+  717  mv tran2014 train2014
+  718  source deactivate
+  719  conda activate myenv
+  720  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=1
+  721  python
+  722  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=2
+  723  source deactivate
+  724  conda deactivate
+  725  python
+  726  source deactivate
+  727  cd dl/DDCap
+  728  conda activate
+  729  source deactivate
+  730  conda activate myenv
+  731  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=1
+  732  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=2
+  733  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  734  conda activate myenv
+  735  vim train.py
+  736  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  737  vim train.py
+  738  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  739  vim train.py
+  740  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 5 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  741  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  742  vim train.py
+  743  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  744  vim train.py
+  745  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  746  vim train.py
+  747  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  748  vim /captioneval/coco_caption/pycocoevalcap/eval.py
+  749  vim captioneval/coco_caption/pycocoevalcap/eval.py
+  750  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  751  vim captioneval/coco_caption/pycocoevalcap/eval.py
+  752  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  753  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=2
+  754  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=0
+  755  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=6
+  756  cd dl/DDCap
+  757  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank=6
+  758  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  759  ls
+  760  cd results_diff
+  761  ls
+  762  cd caption_diff_vitb16
+  763  ls
+  764  cd ..
+  765  cd ../results_diff2
+  766  cd caption_diff_vitb16
+  767  ls
+  768  vim caption_diff_vitb16-000-resu;ts.json
+  769  vim caption_diff_vitb16-000-results.json
+  770  cd ../..
+  771  ls
+  772  vim train.py
+  773  cd MSCOCO_Caption
+  774  ls
+  775  cd ..
+  776  cd captioneal
+  777  cd captioneval
+  778  ls
+  779  cd coco_caption
+  780  ls
+  781  cd pycocoevalcap
+  782  ls
+  783  vim eval.py
+  784  cd ../..
+  785  cd coco_caption
+  786  cd pycocoevalcap
+  787  vim ../../../results_diff2/caption_diff_vitb16/caption_diff_vitb16-000-results.json
+  788  vim eval.py
+  789  cd ../..
+  790  cd ..
+  791  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  792  nvidia-smi
+  793  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  794  cd dl/DDCap
+  795  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  796  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --batch_size=10
+  797  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --bs=10
+  798  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --bs=3
+  799  top
+  800  nvidia-smi
+  801  top
+  802  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --bs=3
+  803  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  804  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --local_rank=2
+  805  top
+  806  cd dl/DDCap
+  807  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  808  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16 --local_rank 1
+  809  cd dl/DDcap
+  810  cd dl/DCcap
+  811  cd dl/DDCap
+  812  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --local_rank=2
+  813  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  814  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --local_rank=1
+  815  cd dl/DDCap
+  816  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  817  nvidia-smi
+  818  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16   --local_rank=2
+  819  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  820  d results_diff2
+  821  ls
+  822  cd results_diff2
+  823  ls
+  824  cd caption_diff_vitb16
+  825  ls
+  826  vim caption_diff_vitb16-000-results.json
+  827  cd ../..
+  828  ls
+  829  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  830  cd captioneval
+  831  ls
+  832  cd coco_caption
+  833  ls
+  834  cd pycocoevalcap
+  835  ls
+  836  vim eval.py
+  837  cd ../..
+  838  cd ..
+  839  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  840  cd dl/DDCap
+  841  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  842  nvidia-smi
+  843  kill 2111149
+  844  nvidia-smi
+  845  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  846  ls
+  847  cd captioneval
+  848  ls
+  849  cd coco_caption
+  850  ls
+  851  cd pycocoevalcap
+  852  ls
+  853  vim eval.py
+  854  cd tokenizer
+  855  ls
+  856  vim ptbtokenizer.py
+  857  ls -ltr ../../../../results_diff2
+  858  ls -ltr ../../../results_diff2
+  859  ls -ltr /../../../results_diff2
+  860  ls -ltr ../../../results_diff2
+  861  ls -ltr ../../../../..results_diff2
+  862  ls -ltr ../../../../../results_diff2
+  863  ls -ltr ../../../results_diff2
+  864  cd ../../..
+  865  cd ..
+  866  cd results_diff2
+  867  ls
+  868  cd caption_diff_vitb16
+  869  ls
+  870  vim caption_diff_vitb16-000-results.json
+  871  cd ../..
+  872  cd captioneval/coco_caption/pycocoevalcap/tokenizer
+  873  ls
+  874  vim ptbtokenizer.py
+  875  cd ../../../..
+  876  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  877  vim ptbtokenizer.py
+  878  ls
+  879  cd captioneval
+  880  ls
+  881  cd coco_caption
+  882  ls
+  883  cd pycocoevalcap
+  884  ls
+  885  cd tokenizer
+  886  ls
+  887  vim ptbtokenizer.py
+  888  cd ../../../..
+  889  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  890  vim captioneval/coco_caption/pycocoevalcap/cider/cider_scorer.py
+  891  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  892  vim captioneval/coco_caption/pycocoevalcap/cider/cider_scorer.py
+  893  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  894  cd dl/DDCap
+  895  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  896  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --local_rank=1
+  897  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  898  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --local_rank=1
+  899  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  900  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --local_rank=1
+  901  vim train.py
+  902  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16  --local_rank=1
+  903  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  904  vim train.py
+  905  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  906  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  907  CUDA_VISIBLE_DEVICES=5,7,9 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  908  vim train.py
+  909  CUDA_VISIBLE_DEVICES=5,7,9 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  910  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  911  CUDA_VISIBLE_DEVICES=3 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  912  CUDA_VISIBLE_DEVICES=2 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  913  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  914  cd dl/DDCap
+  915  vim train.py
+  916  vim captioneval/coco_caption/pycocoevalcap/spice/spice.py
+  917  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  918  vim captioneval/coco_caption/pycocoev
+  919  python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  920  IndexError                                Traceback (most recent call last)
+  921  <ipython-input-13-88bf5a02c902> in <cell line: 51>()
+  922  ---> 63         loss = criterion(outputs, labels)
+  923  3 frames
+  924  /usr/local/lib/python3.10/dist-packages/torch/nn/functional.py in cross_entropy(input, target, weight, size_average, ignore_index, reduce, reduction, label_smoothing)
+  925  -> 3053     return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+  926  IndexError: Target 6 is out of bounds.python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  927  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  928  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  929  ls
+  930  cd results_diff2
+  931  ls
+  932  cd caption_diff_vitb16
+  933  ls
+  934  vim caption_diff_vitb16-008-results.json
+  935  vim caption_diff_vitb16-001-results.json
+  936  vim caption_diff_vitb16-006-results.json
+  937  vim caption_diff_vitb16-003-results.json
+  938  vim caption_diff_vitb16-005-results.json
+  939  vim caption_diff_vitb16-004-results.json
+  940  cd ../../..
+  941  cd DDCap
+  942  python predict.py
+  943  ls
+  944  source deactivate
+  945  conda activate myenv'
+  946  conda activate myenv
+  947  python predict.py
+  948  pip uninstall pillow
+  949  pip uninstall pillow==9.0.0\
+  950  pip uninstall pillow==9.0.0
+  951  python -m pip install pillow==9.0.0
+  952  python -m pip install pyscreeze==0.1.20
+  953  python -m pip install pyautogui==0.9.49
+  954  python -m pip install pyautogui==0.9.48
+  955  python -m pip install pillow==9.0.0
+  956  python -m pip uninstall pyscreeze==0.1.30
+  957  python -m pip install pyscreeze==0.1.20
+  958  python -m pip install pyautogui==0.9.30
+  959  python -m pip uninstall pyscreeze==0.1.30
+  960  python -m pip install pillow==9.0.0
+  961  python predict.py
+  962  pip install --upgrade cog
+  963  python predict.py
+  964  vim predict.py
+  965  python predict.py
+  966  vim predict.py
+  967  python predict.py
+  968  vim predict.py
+  969  python predict.py
+  970  vim predict.py
+  971  python predict.py
+  972  vim predict.py
+  973  python predict.py
+  974  vim predict.py
+  975  predict
+  976  cd dl/DDCap
+  977  ls
+  978  cd MSCOCO_Caption
+  979  ls
+  980  cd val2014
+  981  ls
+  982  mkdir 2014copy
+  983  cd 2014
+  984  cd val2014
+  985  cd ..
+  986  mkdir val2014copy
+  987  cd val2014
+  988  cp $(ls | head -n 100) ../val2014copy
+  989  cd ..
+  990  mv val2014 val2014_original
+  991  mv val2014copy val2014
+  992  cd ..
+  993  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  994  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  995  cd dl/DDCap
+  996  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+  997  source deactivate
+  998  conda activate myenv
+  999  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1000  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1001  source deactivate
+ 1002  conda activate myenv
+ 1003  cd dl/DDCap
+ 1004  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1005  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1006  cd MSCOCO_Caption
+ 1007  ls
+ 1008  mv val2014 val2014\_100
+ 1009  mv val2014_original val2014
+ 1010  cd ..
+ 1011  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1012  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1013  cd dl/DDCap
+ 1014  ls
+ 1015  cd data
+ 1016  ls
+ 1017  cd coco
+ 1018  ls
+ 1019  git
+ 1020  vi oscar_split_ViT-B_32_train_512.pkl
+ 1021  cd ..
+ 1022  cd dl
+ 1023  cd DDCap
+ 1024  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1025  ls
+ 1026  cd MSCOCO_Caption
+ 1027  ls
+ 1028  ls
+ 1029  wc -l
+ 1030  mkdir ../trainnew
+ 1031  cp $(ls | head -n 10000) ../trainnew
+ 1032  cd ../trainnew
+ 1033  wc -l
+ 1034  ls /etc | wc -l
+ 1035  cd ..
+ 1036  ls
+ 1037  rm -rf trainnew
+ 1038  cd tran2014new1
+ 1039  ls /etc | wc -l
+ 1040  cd ..
+ 1041  cd  train2014
+ 1042  ls
+ 1043  ls /etc | wc -l
+ 1044  ls . | wc -l
+ 1045  cd ..
+ 1046  cd tran2014new1
+ 1047  ls . | wc -l
+ 1048  cd ..
+ 1049  ls
+ 1050  cd train20142
+ 1051  ls . | wc -l
+ 1052  cd ..
+ 1053  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1054  cd MSCOCO
+ 1055  ls_
+ 1056  cd MSCOCO_Caption
+ 1057  ls
+ 1058  cd train2014
+ 1059  ls . | wc -l
+ 1060  cd ..
+ 1061  mv train2014 train2014100
+ 1062  mv train20142 train2014
+ 1063  cd ..
+ 1064  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1065  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=200 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1066  nvidia-smi
+ 1067  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=200 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1068  nvidia-smi
+ 1069  kill -9 3382753
+ 1070  nvidia-smi
+ 1071  cd dl/DDCap
+ 1072  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1073  cd dl/DDCap
+ 1074  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1075  nvidia-smi
+ 1076  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1077  cd dl/DDCap
+ 1078  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1079  nvidia-smi
+ 1080  cd dl/DDCap
+ 1081  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=200 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1082  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=200 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/\DDCap/results_diff2 --tag caption_diff_vitb16
+ 1083  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=200 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/\DDCap/results_diff2 --tag caption_diff_vitb16
+ 1084  cd dl/DDcap
+ 1085  cd dl/DDCap
+ 1086  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1087  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1088  nvidia-smi
+ 1089  kill -9 3723960
+ 1090  kill -9 10254
+ 1091  kill -9 3760425
+ 1092  cd dl/DDCap
+ 1093  nvidia-smi
+ 1094  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1095  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1096  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=200 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1097  nvidia-smi
+ 1098  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=150 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1099  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1100  cd dl/DDCap
+ 1101  vim train.py
+ 1102  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1103  vim train.py
+ 1104  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1105  vim train.py
+ 1106  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1107  vim train.py
+ 1108  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1109  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1110  vim train.py
+ 1111  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1112  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1113  vim train.py
+ 1114  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1115  vim train.py
+ 1116  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1117  vim train.py
+ 1118  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1119  cd dl/DDcap
+ 1120  cd dl
+ 1121  cd DDcap
+ 1122  ls
+ 1123  cd DDCap
+ 1124  vim train.py
+ 1125  nvidia-smi
+ 1126  cd dl/DDCap
+ 1127  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1128  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --save-every=1 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1129  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --save_every=1 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1130  cd dl/DDCap
+ 1131  vim train.py
+ 1132  ls
+ 1133  cd results_diff2
+ 1134  ls
+ 1135  cd ..
+ 1136  cd MSCOCO_Caption
+ 1137  ls
+ 1138  cd train2014
+ 1139  ls
+ 1140  nvidia-smi
+ 1141  cd ../..
+ 1142  nvidia-smi
+ 1143  cd dl/DDCap
+ 1144  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_clip.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1145  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1146  vim train.py
+ 1147  vim train_tclip.py
+ 1148  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1149  vim train.py
+ 1150  vim train_tclip.py
+ 1151  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1152  vim train_tclip.py
+ 1153  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir f2 --tag caption_diff_vitb16
+ 1154  nvidi-smi
+ 1155  nvidia-smi
+ 1156  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff2 --tag caption_diff_vitb16
+ 1157  cd results_diff2
+ 1158  ls
+ 1159  cd caption_diff_vitb16
+ 1160  ls
+ 1161  cd ../..
+ 1162  mkdir results_diff3
+ 1163  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1164  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=40 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1165  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=20 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1166  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1167  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=20 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1168  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1169  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16 --init_method tcp://localhost:8000
+ 1170  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1171  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=10 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1172  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=40 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1173  vim train_tclip.py
+ 1174  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=40 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1175  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=40 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1176  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=20 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1177  cd dl/DDCap
+ 1178  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=20 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1179  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1180  vim train.py
+ 1181  vim train_tclip.py
+ 1182  vim train.py
+ 1183  vim train_tclip.py
+ 1184  vim train.py
+ 1185  vim train_tclip.py
+ 1186  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=100 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1187  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=512 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1188  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=512 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1189  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=512 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1190  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=256 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1191  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=256 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1192  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=128 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1193  CUDA_VISIBLE_DEVICES=1,0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=128 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1194  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=256 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1195  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=64 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1196  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=256 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1197  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 2  train_tclip.py --is_rn --normalize_prefix --bs=256 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1198  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 2  train_tclip.py --is_rn --normalize_prefix --bs=128 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1199  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 2  train_tclip.py --is_rn --normalize_prefix --bs=64 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1200  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train_tclip.py --is_rn --normalize_prefix --bs=128 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1201  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=64 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1202  vim train.py
+ 1203  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=64 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1204  vim train.py
+ 1205  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=64 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1206  vim train.py
+ 1207  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=64 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1208  nvidia-smi
+ 1209  cd dl/DDCap
+ 1210  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=128 --lr=1e-12 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1211  pip install timm==0.3.4
+ 1212  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=128 --lr=5e-5 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 10 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1213  timmm
+ 1214  timm
+ 1215  pip install timm==0.3.4
+ 1216  cd dl/DDCap
+ 1217  ls
+ 1218  vim train.py
+ 1219  ls
+ 1220  cd captioneval
+ 1221  ls
+ 1222  cd coco_caption
+ 1223  ls
+ 1224  cd pycocoevalcap
+ 1225  ls
+ 1226  cd bleu
+ 1227  ls
+ 1228  vim bleu_scorer.py
+ 1229  vim bleu.py
+ 1230  vim bleu_scorer.py
+ 1231  cd dl/DDCap
+ 1232  cd MSCOCO_Caption
+ 1233  ls
+ 1234  cd annotations
+ 1235  vim person_keypoints_train2014.json
+ 1236  mv captions_val2014.json caotions_val2014_original.json
+ 1237  mv person_keypoints_val2014.json captions_val2014.json
+ 1238  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=64 --lr=1e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1239  cd ../..
+ 1240  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1241  cd dl/DDCap
+ 1242  cp train.py train_1.py
+ 1243  mv train_1.py predict_1.py
+ 1244  cd /home/22m1526/dl/DDCap/MSCOCO_Caption/annotations/home/22m1526/dl/DDCap/MSCOCO_Caption/annotations/home/22m1526/dl/DDCap/MSCOCO_Caption/annotations
+ 1245  cd /home/22m1526/dl/DDCap/MSCOCO_Caption/annotations
+ 1246  cp captions_val2014.json captions_predict.json
+ 1247  vim captions_predict.py
+ 1248  cd dl/DDCap
+ 1249  ls
+ 1250  cd data/annotations
+ 1251  cd data/annotation
+ 1252  cd data/
+ 1253  ls
+ 1254  cd coco
+ 1255  ls
+ 1256  cd annotations
+ 1257  ls
+ 1258  mv train_caption.json train_caption_old.json
+ 1259  cd ../../..
+ 1260  ls
+ 1261  cd MSCOCO_Caption
+ 1262  ls
+ 1263  cd annotations
+ 1264  ls
+ 1265  mv instances_train2014.json ../../data/coco/annotations
+ 1266  cd ../../data/coco/annotations
+ 1267  mv instances_train2014.json train_caption.json
+ 1268  cd ../../..
+ 1269  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1270  cd dl/DDCap
+ 1271  cd MSCOCO_Caption
+ 1272  ls
+ 1273  cd annotations
+ 1274  cp caotions_val2014_original.json
+ 1275  cp caotions_val2014_original.json captions_predict.json
+ 1276  rm captions_predict.json
+ 1277  ls
+ 1278  rm captions_predict.json
+ 1279  ls
+ 1280  vim captions_predict.json
+ 1281  cd ../..
+ 1282  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1283  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1284  python predict.py
+ 1285  java
+ 1286  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1287  mkdir results_diff4
+ 1288  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1289  cd MSCOCO_Caption/
+ 1290  cd annotations/
+ 1291  vim captions_predict.json
+ 1292  cd ../../..
+ 1293  cd DDCap
+ 1294  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1295  cd MSCOCO_Caption/
+ 1296  cd annotations/
+ 1297  ls
+ 1298  vim captions_predict.json
+ 1299  vim captions_val2014.json
+ 1300  vim captions_predict.json
+ 1301  cd ../..
+ 1302  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1303  cd MSCOCO_Caption/
+ 1304  cd annotations/
+ 1305  rm captions_predict.json
+ 1306  cp captions_val2014.json captions_predict.json
+ 1307  cd ../...
+ 1308  cd ../..
+ 1309  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1310  ls
+ 1311  cd captioneval
+ 1312  ls
+ 1313  cp coco_test.txt coco_predict.txt
+ 1314  cd ..
+ 1315  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1316  python predict_1.py   --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1317  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1318  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1319  ls
+ 1320  cp captioneval/coco_predict.txt
+ 1321  cp captioneval/coco_predict.txt coco_predict.txt
+ 1322  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1323  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1324  CUDA_VISI n
+ 1325  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1326  cd dl/DDCap
+ 1327  python hindi_train.py
+ 1328  wget https://huggingface.co/spaces/team-indain-image-caption/Hindi-image-captioning/resolve/main/example_1.jpg?download=true
+ 1329  python hindi_train.py
+ 1330  pip install gradio
+ 1331  python hindi_train.py
+ 1332  python
+ 1333  python hindi_train.py
+ 1334  wget https://huggingface.co/spaces/team-indain-image-caption/Hindi-image-captioning/resolve/main/example_1.jpg
+ 1335  python hindi_train.py
+ 1336  wget https://huggingface.co/spaces/team-indain-image-caption/Hindi-image-captioning/resolve/main/example_2.jpg
+ 1337  cd MSCOCO
+ 1338  cd MSCOCO_Caption/
+ 1339  ls
+ 1340  cd train2014
+ 1341  ls -1|wc -l
+ 1342  cd ..
+ 1343  cd val2014
+ 1344  ls -1|wc -l
+ 1345  cd dl/DDCap
+ 1346  CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node 1  train.py  --bs=128 --lr=0.5e-4 --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1347  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff3 --tag caption_diff_vitb16
+ 1348  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1349  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1350  wget https://www.fourpaws.com/-/media/Project/OneWeb/FourPaws/Images/articles/family-matters/dog-playtime/dog-playtime-927x388.jpg?h=388&iar=0&w=927&hash=DC486D0863E76ECD77FCD613BCA7A537
+ 1351  wget https://images.pexels.com/photos/998254/pexels-photo-998254.jpeg?cs=srgb&dl=pexels-thijs-van-der-weide-998254.jpg&fm=jpg&_gl=1*koll8n*_ga*MzgyMzk1NjY0LjE3MDEyNjcwMDk.*_ga_8JE65Q40S6*MTcwMTI2NzAxMC4xLjAuMTcwMTI2NzAxMC4wLjAuMA..
+ 1352  wget https://images.pexels.com/photos/998254/pexels-photo-998254.jpeg
+ 1353  wget https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fbashonubuntuonwindows%2Fcomments%2Fr2012b%2Fim_not_able_to_download_image_using_wget%2F&psig=AOvVaw1MOL2SQGSltDBhlY3rCy1a&ust=1701353682214000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiHq5qy6YIDFQAAAAAdAAAAABAD
+ 1354  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1355  mv example_1.jpg MSCOCO_Caption/val2014/800000000338.jpg
+ 1356  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1357  mv example_1.jpg MSCOCO_Caption/val2014/COCO_val2014_800000000338.jpg
+ 1358  mv example_2.jpg MSCOCO_Caption/val2014/COCO_val2014_800000000338.jpg
+ 1359  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1360  mv MSCOCO_Caption/val2014/COCO_val2014_800000000338.jpg.jpg MSCOCO_Caption/val2014/COCO_val2014_000000800338.jpg
+ 1361  mv MSCOCO_Caption/val2014/COCO_val2014_800000000338.jpg MSCOCO_Caption/val2014/COCO_val2014_000000800338.jpg
+ 1362  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1363  mv MSCOCO_Caption/val2014/COCO_val2014_000000800338.jpg MSCOCO_Caption/val2014/COCO_val2014_000000000338.jpg
+ 1364  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1365  wget https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F1.jpg&tbnid=8h6ACUVHYOFWsM&vet=12ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F&docid=-U8QbKKuciY4qM&w=500&h=300&q=cow%20on%20the%20beach&ved=2ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F1.jpg&tbnid=8h6ACUVHYOFWsM&vet=12ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F&docid=-U8QbKKuciY4qM&w=500&h=300&q=cow%20on%20the%20beach&ved=2ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F1.jpg&tbnid=8h6ACUVHYOFWsM&vet=12ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F&docid=-U8QbKKuciY4qM&w=500&h=300&q=cow%20on%20the%20beach&ved=2ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F1.jpg&tbnid=8h6ACUVHYOFWsM&vet=12ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F&docid=-U8QbKKuciY4qM&w=500&h=300&q=cow%20on%20the%20beach&ved=2ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F1.jpg&tbnid=8h6ACUVHYOFWsM&vet=12ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F&docid=-U8QbKKuciY4qM&w=500&h=300&q=cow%20on%20the%20beach&ved=2ahUKEwjpzr7rt-mCAxUVmmMGHdOACnwQMygCegQIARBZ
+ 1366  ls -ltr ../..
+ 1367  cd ../..
+ 1368  ls
+ 1369  mv download.jpg dl/DDCapMSCOCO_Caption/val2014/COCO_val2014_000000000338.jpg
+ 1370  mv download.jpg dl/DDCap/MSCOCO_Caption/val2014/COCO_val2014_000000000338.jpg
+ 1371  cd dl/DDCap
+ 1372  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1373  git
+ 1374  git clone https://github.com/Eyantra698Sumanto/DLProject-Discrete-Diffusion-for-Image-Captioning.git
+ 1375  git clone git@github.com:Eyantra698Sumanto/DLProject-Discrete-Diffusion-for-Image-Captioning.git
+ 1376  ls
+ 1377  cd ddcapcopy
+ 1378  ls
+ 1379  cd ../..
+ 1380  git clone git@github.com:Eyantra698Sumanto/DLProject-Discrete-Diffusion-for-Image-Captioning.git
+ 1381  git clone https://github.com/Eyantra698Sumanto/DLProject-Discrete-Diffusion-for-Image-Captioning.git
+ 1382  nvidia-smi
+ 1383  rm ./ddcapcopy/data/coco/view?usp=share_link.1
+ 1384  nvidia-smi
+ 1385  rm -rf ./ddcapcopy/cocoapi/.git
+ 1386  rm ./ddcapcopy/data/coco/view?usp=share_link:
+ 1387  cd ..
+ 1388  git clone  https://github.com/Eyantra698Sumanto/DLProject-Discrete-Diffusion-for-Image-Captioning.git
+ 1389  mkdir ddcapcopy
+ 1390  cd ddcapcopy
+ 1391  ls
+ 1392  $path
+ 1393  path
+ 1394  $PATH
+ 1395  $pwd
+ 1396  pwd
+ 1397  cd ../dl/DDCap
+ 1398  find . -maxdepth 1 -type f -name '*' -exec cp -n {} /home/22m1526/ddcapcopy \;
+ 1399  cd ../..
+ 1400  cd ddcapcopy
+ 1401  ls
+ 1402  cp -r  /dl/DDCap/.idea .
+ 1403  cp -r  /home/22m1526/dl/DDCap/.idea .
+ 1404  ls
+ 1405  cd ..
+ 1406  ls
+ 1407  cd
+ 1408  cp -r  /home/22m1526/dl/DDCap/captioneval .
+ 1409  cp -r  /home/22m1526/dl/DDCap/clip1 .
+ 1410  cp -r  /home/22m1526/dl/DDCap/cocoapi .
+ 1411  cp -r  /home/22m1526/dl/DDCap/data .
+ 1412  cp -r  /home/22m1526/dl/DDCap/Images .
+ 1413  cp -r  /home/22m1526/dl/DDCap/notebooks .
+ 1414  cp -r  /home/22m1526/dl/DDCap/results_diff .
+ 1415  cp -r  /home/22m1526/dl/DDCap/results_diff2 .
+ 1416  cp -r  /home/22m1526/dl/DDCap/results_diff3 .
+ 1417  cd results_diff2
+ 1418  ls
+ 1419  cd caption_diff_vitb16
+ 1420  ls
+ 1421  rm *.pt
+ 1422  rm -y *.pt
+ 1423  rm  *.pt
+ 1424  y
+ 1425  cd ..
+ 1426  ls
+ 1427  cd ..
+ 1428  cd results_diff3
+ 1429  cd caption_diff_vitb16
+ 1430  ls
+ 1431  rm  *.pt
+ 1432  ls
+ 1433  rm  *.pt
+ 1434  cd ..
+ 1435  cp   /home/22m1526/dl/DDCap/results_diff3/caption_diff_vitb16-006.pt ./results_diff3/
+ 1436  cp   /home/22m1526/dl/DDCap/result ./results_diff4/
+ 1437  mkdir results_diff4
+ 1438  mkdir results_diff4/caption_diff_vitb16
+ 1439  cp   /home/22m1526/dl/DDCap/results_diff4/*.json ./results_diff4/caption_diff_vitb16
+ 1440  cp   /home/22m1526/dl/DDCap/results_diff4/caption_diff_vitb16/*.json ./results_diff4/caption_diff_vitb16
+ 1441  ls
+ 1442  rm 'imgres?imgurl=https:%2F%2Fwww.morganbay.co.za%2Factivities%2Fcattle-on-the-beach%2F1.jpg'
+ 1443  rm '*'
+ 1444  rm *'
+ 1445  rm 'example_1.jpg?download=true
+ 1446  rm 'view?usp=share_link'
+ 1447  rm 'url?sa=i'
+ 1448  cd ../dl/DDCap
+ 1449  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  predict_1.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1450  CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1451  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 1 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1452  CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node 1  train.py --is_rn --normalize_prefix --bs=128  --data ~/dl/DDCap/data/coco/oscar_split_ViT-B_32_train_512.pkl --epochs 30 --out_dir ~/dl/DDCap/results_diff4 --tag caption_diff_vitb16
+ 1453  cd
+ 1454  rm ./ddcapcopy/data/coco/view?usp=share_link:
+ 1455  cd ddcapcopy/data/coco
+ 1456  rm view?usp=share_link:
+ 1457  ls
+ 1458  rm 'view?usp=share_link:'
+ 1459  rm 'view?usp=share_link'
+ 1460  hist
+ 1461  history
+ 1462  ls
+ 1463  cd google-cloud-sdk
+ 1464  ls
+ 1465  cd ..
+ 1466  rm google-cloud-sdk
+ 1467  rm -rf google-cloud-sdk
+ 1468  cd ..
+ 1469  cd ggogle-cloud-sdk
+ 1470  cd 22m1526
+ 1471  ls
+ 1472  cd ddcapcopy
+ 1473  ls
+ 1474  cd ..
+ 1475  rm -rf ddcapcopy
+ 1476  rm -rf DDCap
+ 1477  rm -rf dl
+ 1478  cd DLProject
+ 1479  ls
+ 1480  cd DDCaopcopy
+ 1481  cd DDCapcopy
+ 1482  ls
+ 1483  cd ../..
+ 1484  ls
+ 1485  rm -rf dl
+ 1486  ipopt
+ 1487  gftp
+ 1488  ftp
+ 1489  exit
+ 1490  ls
+ 1491  mkdir MTP
+ 1492  cd MTP
+ 1493  python3
+ 1494  pip install gradio install gurobipy
+ 1495  pip install gurobipy
+ 1496  pip install pyomo
+ 1497  pip install cplex
+ 1498  pip install pyomo
+ 1499  ls
+ 1500  cd ../
+ 1501  ls
+ 1502  mv # -*- coding: utf-8 -*-.py mtp.py
+ 1503  mv "# -*- coding: utf-8 -*-.py" mtp.py
+ 1504  mv mtp.py MTP
+ 1505  /usr/bin/python3 /home/22m1526/MTP/mtp.py
+ 1506  pip install pyomo
+ 1507  python3 /home/22m1526/MTP/mtp.py
+ 1508  cd MTP
+ 1509  python3 /home/22m1526/MTP/mtp.py
+ 1510  /usr/bin/python3 /home/22m1526/MTP/mtp.py
+ 1511  pip install pyomo
+ 1512  /usr/bin/python3 /home/22m1526/MTP/mtp.py
+ 1513  python3 /home/22m1526/MTP/mtp.py
+ 1514  /usr/bin/python3 /home/22m1526/MTP/mtp.py
+ 1515  python3 /home/22m1526/MTP/mtp.py
+ 1516  ./opt/gurobi
+ 1517  gurobi_cl NAME-OF-FILE.mps
+ 1518  python3 /home/22m1526/MTP/mtp.py
+ 1519  ls -ltr /opt/gurobi
+ 1520  gurobi_cl NAME-OF-FILE.mps
+ 1521  python3 /home/22m1526/MTP/mtp.py
+ 1522  gurobi_cl NAME-OF-FILE.mps
+ 1523  /opt/gurobi/gurobi.lic
+ 1524  gedit /opt/gurobi/gurobi.lic
+ 1525  python -m pip install gurobipy==10.0.0
+ 1526  python3 /home/22m1526/MTP/mtp.py
+ 1527  /usr/bin/python3 /home/22m1526/MTP/mtp.py
+ 1528  python3 /home/22m1526/MTP/mtp.py
+ 1529  python3 /home/22m1526/MTP/mtp.py >> text.log
+ 1530  python3 /home/22m1526/MTP/mtp.py
+ 1531  python3 /home/22m1526/MTP/mtp.py >> text.log
+ 1532  cd MTP
+ 1533  python3 mtp.py
+ 1534  /bin/python3 /home/22m1526/MTP/mtp.py
+ 1535  pip install pyomo
+ 1536  python3 /home/22m1526/MTP/mtp.py
+ 1537  cd MTP
+ 1538  python3 /home/22m1526/MTP/mtp.py
+ 1539  GURO_PAR_SPECIAL "kopri"
+ 1540  python3 /home/22m1526/MTP/mtp.py
+ 1541  ls
+ 1542  python3 /home/22m1526/MTP/mtp.py
+ 1543  dsmsg
+ 1544  dmesg
+ 1545  top
+ 1546  python3 /home/22m1526/MTP/mtp.py
+ 1547  cd MTP
+ 1548  python3 /home/22m1526/MTP/mtp.py
+ 1549  cdMTP
+ 1550  cd \MTP
+ 1551  python3 /home/22m1526/MTP/mtp.py
+ 1552  top
+ 1553  ps
+ 1554  top
+ 1555  cd MTP
+ 1556  cd ..
+ 1557  git clone https://github.com/twweeb/VLSI-Physical-Design-Automation.git
+ 1558  cd HW-5 Global Routing
+ 1559  ls
+ 1560  cd VLSI-Physical-Design-Automation/
+ 1561  cd HW5\ -\ Global\ Routing/
+ 1562  cd source
+ 1563  ls
+ 1564  cd HW5
+ 1565  ls
+ 1566  cd ..
+ 1567  cd ../submit/
+ 1568  ls
+ 1569  cd src
+ 1570  ls
+ 1571  ./run.sh
+ 1572  chmod 777 run.sh
+ 1573  ./run.sh
+ 1574  cd
+ 1575  chmod 777 VLSI-Physical-Design-Automation/
+ 1576  chmod 777 -R VLSI-Physical-Design-Automation/
+ 1577  cd VLSI-Physical-Design-Automation/
+ 1578  cd HW5
+ 1579  cd HW5\ -\ Global\ Routing/
+ 1580  cd submit
+ 1581  cd src
+ 1582  ./run.sh
+ 1583  ./run.sh 1
+ 1584  cd
+ 1585  ./run.sh 1
+ 1586  cd /VLSI-Physical-Design-Automation/HW5 - Global Routing/submit/src
+ 1587  cd /VLSI-Physical-Design-Automation/HW5\ -\ Global Routing/submit/src
+ 1588  cd /VLSI-Physical-Design-Automation/
+ 1589  cd VLSI-Physical-Design-Automation/
+ 1590  cd HW5\ -\ Global\ Routing/
+ 1591  cd submit
+ 1592  cd src
+ 1593  ./run.sh 1
+ 1594  cd MTP;python3 new.py
+ 1595  python3 new.py
+ 1596  pip3 install ipopt
+ 1597  conda install -c conda-forge ipopt
+ 1598  top
+ 1599  cd MTP
+ 1600  python mtp.py
+ 1601  pip install pympler
+ 1602  python mtp.py
+ 1603  top
+ 1604  cd MTP
+ 1605  python mtp.py
+ 1606  cd MTP;python mtp.py>>text.log
+ 1607  python mtp.py>>text.log
+ 1608  python mtp.py
+ 1609  cd MTP
+ 1610  python mtp.py
+ 1611  ssh -o "ServerAliveInterval 60" 10.119.2.17
+ 1612  cd MTP
+ 1613  python mtp.py>>text.log
+ 1614  cd MTP
+ 1615  python mtp.py>>text.log
+ 1616  list
+ 1617  hist
+ 1618  history
